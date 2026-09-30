@@ -57,9 +57,9 @@ what a machine runs to be part of the cluster.
 hanzo.grid = {
   enable = true;
   role = "node";
-  serverAddr = "https://spark:6443";
+  serverAddr = "https://localhost:6443";
   tokenFile = "/var/lib/secrets/grid-token";
-  nodeIp = "10.0.0.21";
+  nodeIp = "127.0.0.1";
   flannelIface = "eno1";
   labels."hanzo.ai/arch" = "amd64";
 };
